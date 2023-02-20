@@ -40,5 +40,7 @@ $res_list_tape = mysqli_query($conn,$sql_list_tape);
     ?>
     </table>
     
+    <?php mysqli_close($conn); ?>
+    
 </body>
 </html>
